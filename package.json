@@ -14,14 +14,18 @@
     "del": "^1.1.1",
     "express": "~4.12.2",
     "express-react-views": "^0.8.0",
+    "flux": "^2.0.3",
     "gulp": "^3.8.11",
     "gulp-concat": "^2.5.2",
     "gulp-stylus": "^2.0.1",
     "jade": "~1.9.2",
     "morgan": "~1.5.1",
+    "object-assign": "^2.0.0",
     "react": "^0.13.3",
+    "react-router": "^0.13.3",
     "reactify": "^1.1.1",
     "serve-favicon": "~2.2.0",
-    "vinyl-source-stream": "^1.1.0"
+    "vinyl-source-stream": "^1.1.0",
+    "whatwg-fetch": "^0.8.1"
   }
 }

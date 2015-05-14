@@ -10,7 +10,7 @@ app.engine('jsx', require('express-react-views').createEngine());
 
 app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', function(req, res) {
-  res.render('index');
+  res.render('index', {title: 'template'});
 });
 
 var server = app.listen(app.get('port'), function() {

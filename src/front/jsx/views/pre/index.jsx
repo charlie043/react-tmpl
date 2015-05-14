@@ -1,12 +1,17 @@
 var React = require('react');
-var Layout = require('./layout.jsx');
 
 var Index = React.createClass({
   render: function() {
     return (
-      <Layout title={this.props.title}>
-        <h1>Hello</h1>
-      </Layout>
+      <html>
+        <head>
+          <title>{this.props.title}</title>
+        </head>
+        <body>
+          <div id='app-root' />
+        </body>
+        <script src='/js/index.js'></script>
+      </html>
     );
   }
 });
